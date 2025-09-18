@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    color: #be90ea;
+    background-image: linear-gradient(to right, #1a1a2e, #3c096c, #1a1a2e);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    width: 30%;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a{
+    color: #be90ea;
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+}
