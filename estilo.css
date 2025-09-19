@@ -44,7 +44,7 @@ a{
     text-decoration: none;
 }
 
-nav ul a:hover{
+a:hover{
     text-decoration: underline;
 }
 
